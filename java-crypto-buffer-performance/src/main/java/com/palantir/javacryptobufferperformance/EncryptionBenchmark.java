@@ -78,7 +78,12 @@ public class EncryptionBenchmark {
     }
 
     @State(Scope.Benchmark)
-    @SuppressWarnings({"DesignForExtension", "StringSplitter", "CheckStyle"})
+    @SuppressWarnings({
+        "DesignForExtension",
+        "StringSplitter",
+        "checkstyle:VisibilityModifier",
+        "checkstyle:RegexpSinglelineJava"
+    })
     public static class BenchmarkState {
         private static final Random random = new Random(314);
 
