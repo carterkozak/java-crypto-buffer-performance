@@ -1,8 +1,16 @@
-java-crypto-buffer-performance
-============
+Java Cryptography Buffer Performance
+====================================
 Analysis of java cryptography performance using large buffers.
 
-**Initial Benchmark Results**
+Running Locally
+---------------
+
+You may run using your preferred IDE using the main method in [EncryptionBenchmark](./java-crypto-buffer-performance/src/main/java/com/palantir/javacryptobufferperformance/EncryptionBenchmark.java),
+or by executing `./gradlew run`. Alternatively, you can build a zip archive using `./gradlew distZip` for execution in another environment.
+
+Initial Benchmark Results
+-------------------------
+
 _Using an Intel Xeon W-2175 (x86_64) on linux kernel 5.15.0 and JDK 17.0.4.1_
 ```
 Benchmark                             (cipher)  (numBytes)  (writeStrategy)   Mode  Cnt     Score     Error  Units
