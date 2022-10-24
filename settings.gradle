@@ -1,0 +1,4 @@
+rootProject.name = 'java-crypto-buffer-performance-root'
+
+include 'java-crypto-buffer-performance'
+
