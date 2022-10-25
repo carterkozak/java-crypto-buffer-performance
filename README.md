@@ -13,6 +13,8 @@ Initial Benchmark Results
 
 _Using an Intel Xeon W-2175 (x86_64) on linux kernel 5.15.0_
 
+### JDK-17
+
 ```
 # JMH version: 1.35
 # VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8-LTS
@@ -43,6 +45,7 @@ EncryptionBenchmark.encrypt  AES/CTR/NoPadding   104857600    ENTIRE_BUFFER  thr
 EncryptionBenchmark.encrypt  AES/CTR/NoPadding   104857600          CHUNKED  thrpt    4    33.909 ±   1.675  ops/s
 ```
 
+### JDK-19
 ```
 # JMH version: 1.35
 # VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-FR
